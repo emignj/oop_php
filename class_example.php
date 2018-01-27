@@ -2,7 +2,6 @@
 
 class Student {
 
-
 }
 
 $classes = get_declared_classes();
@@ -16,8 +15,5 @@ foreach ($class_names as $class_name) {
     echo "{$class_name} is not a declared class.<br />";
   }
 }
-
-
-
 
  ?>
